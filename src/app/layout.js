@@ -7,8 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio App",
   description: "Animated Portfolio Page",
+  // link:{
+  //   rel:"shortcut icon",
+  //   href:"./favicon-c.ico"
+  // }
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
