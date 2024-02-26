@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Image from "next/image";
 
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
@@ -58,7 +59,7 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            <img
+            <Image
               src='https://em-content.zobj.net/source/apple/354/smiling-face-with-smiling-eyes_1f60a.png'
               alt='simley'
               className='w-20 h-20 relative top-[-4.3rem] left-[17rem]'

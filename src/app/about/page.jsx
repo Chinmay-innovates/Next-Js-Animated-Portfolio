@@ -2,7 +2,6 @@
 import { useRef } from "react";
 import {Brain }from "../../components/Brain.jsx";
 import { motion, useInView, useScroll } from "framer-motion";
-import Image from "next/image";
 
 const AboutPage = () => {
   const containerRef = useRef();
